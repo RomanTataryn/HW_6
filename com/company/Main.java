@@ -16,7 +16,6 @@ public class Main {
         System.out.println(list1);
         list1.removeIf(i -> i % 3 == 0);
         System.out.println("List without 3-divisible elements: " + list1);
-
         System.out.println("Task 2");
         ArrayList<String> list2 = new ArrayList<>();
         list2.add("Apple");
